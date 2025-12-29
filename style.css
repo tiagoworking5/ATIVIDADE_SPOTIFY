@@ -1,0 +1,54 @@
+
+body {
+    display: flex;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+}
+
+
+.sidebar {
+    width: 240px;
+    background-color: #000000;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.logo img {
+    width: 120px;
+    margin-bottom: 30px;
+}
+
+
+.menu ul,
+.playlist ul {
+    list-style: none;
+}
+
+.menu li,
+.playlist li {
+    margin-bottom: 15px;
+}
+
+.menu a,
+.playlist a {
+    text-decoration: none;
+    color: #b3b3b3;
+    font-size: 14px;
+}
+
+.menu a:hover,
+.playlist a:hover {
+    color: #ffffff;
+}
+
+
+.content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: #121212;
+}
