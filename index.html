@@ -1,80 +1,191 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Atividade Spotify</title>
+    <title>Menu Lateral</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <aside>
-        <header>
-            <img src="logo.png" alt="Logo Spotify">
-        </header>
-        
-        <nav>
-            <ul>
-                <li>
-                    <a href="#">
-                        <span>Início</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <span>Buscar</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <span>Sua Biblioteca</span>
-                    </a>
-                </li>
-            </ul>
+
+    <aside class="sidebar">
+
+        <div class="logo">
+            <img src="imagens/logo_spotify.jpg" alt="Spotify">
+        </div>
+
+        <nav class="menu">
+            <button>
+                <img src="imagens/btn.png" alt="inicio">
+                <span>Início</span>
+            </button>
+
+            <button>
+                <img src="imagens/lupa.png" alt="buscar">
+                <span>Buscar</span>
+            </button>
+
+            <button>
+                <img src="imagens/biblioteca-1.png" alt="biblioteca">
+                <span>Sua Biblioteca</span>
+            </button>
+
+            <div class="menu-playlist">
+                <button>
+                    <img src="imagens/13.jpg" alt="playlist">
+                    <span>Criar playlist</span>
+                </button>
+
+                <button>
+                    <img src="imagens/14.jpg" alt="curtidas">
+                    <span>Músicas Curtidas</span>
+                </button>
+            </div>
         </nav>
-        <section>
-            <ul>
-                <li>
-                    <a href="#">Criar playlist</a>
-                </li>
-                <li>
-                    <a href="#">Músicas curtidas</a>
-                </li>
-            </ul>
-        </section>
+
+        <div class="menu-footer">
+            <a href="#">Cookies</a>
+            <a href="#">Privacidade</a>
+        </div>
+
     </aside>
 
-    <!-- Conteúdo principal -->
-    <main>
+    <div class="main-wrapper">
 
-        <!-- Barra de navegação superior -->
-        <header>
-            <nav>
-                <div>
-                    <button type="button">
-                        &lt;
-                    </button>
-                    <button type="button">
-                        &gt;
-                    </button>
-                </div>
+        <header class="top-header">
+            <div class="header-left">
+                <button class="nav-btn">&lt;</button>
+                <button class="nav-btn">&gt;</button>
+            </div>
 
-                <div>
-                    <a href="#">Inscrever-se</a>
-                    <button type="button">
-                        Entrar
-                    </button>
-                </div>
-            </nav>
+            <div class="header-right">
+                <a href="#" class="signup">Inscrever-se</a>
+                <button class="login">Entrar</button>
+            </div>
         </header>
 
-        <section>
-            
+        <!--CARDS-->
+        <main class="content">
+
+        </main>
+
+        <section class="playlist-section">
+
+            <div class="section-header">
+                <h2>Para acompanhar seu dia</h2>
+                <a href="#">VER TUDO</a>
+            </div>
+
+            <div class="cards">
+
+                <div class="card">
+                    <img src="imagens/01.jpg" alt="Hits da Internet">
+                    <h3>Hits da Internet</h3>
+                    <p>Tudo o que está bombando e viralizando</p>
+                </div>
+
+                <div class="card">
+                    <img src="imagens/02.jpg" alt="Amplifika">
+                    <h3>AMPLIFIKA</h3>
+                    <p>DJ Matt D, Menor MC e outros</p>
+                </div>
+
+                <div class="card">
+                    <img src="imagens/03.jpg" alt="POV">
+                    <h3>pov</h3>
+                    <p>amar como um idiota</p>
+                </div>
+
+                <div class="card">
+                    <img src="imagens/04.jpg" alt="tamo flex">
+                    <h3>tamo flex</h3>
+                    <p>tranquilo e calmo no flow</p>
+                </div>
+
+                <div class="card">
+                    <img src="imagens/05.jpg" alt="Radar Brasil">
+                    <h3>RADAR Brasil</h3>
+                    <p>Descubra novos talentos brasileiros</p>
+                </div>
+
+                <div class="card">
+                    <img src="imagens/06.jpg" alt="Sambas da Manhã">
+                    <h3>Sambas da Manhã</h3>
+                    <p>Dias leves pedem samba logo cedo</p>
+                </div>
+
+            </div>
         </section>
 
-    </main>
-        
-        
 
-        
+        <section class="playlist-section">
+
+            <div class="section-header">
+                <h2>Paradas</h2>
+                <a href="#">VER TUDO</a>
+            </div>
+
+            <div class="cards">
+
+                <div class="card">
+                    <img src="imagens/07.jpg" alt="Top 50 Brasil">
+                    <h3>Top 50</h3>
+                    <p>Brasil</p>
+                </div>
+
+                <div class="card">
+                    <img src="imagens/08.jpg" alt="Top 50 Global">
+                    <h3>Top 50</h3>
+                    <p>Global</p>
+                </div>
+
+                <div class="card">
+                    <img src="imagens/09.jpg" alt="Viral Brasil">
+                    <h3>Viral</h3>
+                    <p>Brasil</p>
+                </div>
+
+                <div class="card">
+                    <img src="imagens/10.jpg" alt="Viral São Paulo">
+                    <h3>Viral</h3>
+                    <p>São Paulo</p>
+                </div>
+
+                <div class="card">
+                    <img src="imagens/11.jpg" alt="Viral Rio">
+                    <h3>Viral</h3>
+                    <p>Rio de Janeiro</p>
+                </div>
+
+                <div class="card">
+                    <img src="imagens/12.jpg" alt="Viral BH">
+                    <h3>Viral</h3>
+                    <p>Belo Horizonte</p>
+                </div>
+
+            </div>
+        </section>
+
+        </div>
+
+        <footer class="spotify-footer">
+    <div class="footer-content">
+        <div class="footer-text">
+            <strong>AMOSTRA DO SPOTIFY</strong>
+            <p>
+                Inscreva-se para curtir música ilimitada e podcasts só com alguns anúncios.
+                Não precisa de cartão de crédito.
+            </p>
+        </div>
+
+        <a href="#" class="footer-button">INSCREVA-SE GRÁTIS</a>
+    </div>
+</footer>
+
+
+
 
 </body>
+
 </html>
